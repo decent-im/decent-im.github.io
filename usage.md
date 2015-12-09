@@ -7,7 +7,7 @@ author_footer: false
 ---
 ## Or how to get all of it
 
-[Conversations](http://conversations.im) is Android client app which supports all chat sync features, and also supports chat encryption with OpenPGP, OTR and OMEMO. **Editor's choice award.**
+[Conversations](http://conversations.im) is Android client app which supports all chat sync features, and also supports chat encryption with OpenPGP (but can't send to offline buddy), OTR and OMEMO. **Editor's choice award.**
 
 [Gajim](http://gajim.org) is desktop client supporting chat sync features, and encryption with OpenPGP, OTR. **Recommended.**
 
