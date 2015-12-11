@@ -24,5 +24,7 @@ Sorry for total lack of automation, I just don't expect high demand for this ser
  - All mentioned history sync features;
  - File sharing works (HTTP link is shown on non-supporting devices);
  - Reasonable space for history (no exact numbers or guarantees yet, sorry).
+ - Possibility to make audio/video calls via Jabber (webapp will be deployed soon, to compensate lack of calls support in most of native clients).
+ - If you pay for account, you can invite unlimited number of your friends.
 
 If you want to negotiate about specific features, please see [Contact](/contact/).
