@@ -10,7 +10,7 @@ author_footer: false
 
 To request for account registration, please [drop me an encrypted email](https://encrypt.to/0xD56A7CD0C6FCDB11).
 
-Please consider recurring donation on [Gratipay](https://gratipay.com) or [Bountysource Salt](https://salt.bountysource.com) to keep the service running and to appreciate Jabber software development and adoption.
+Please consider recurring donation on [Gratipay](https://gratipay.com/decent-im) or [Bountysource Salt](https://salt.bountysource.com/teams/decent-im) to keep the service running and to appreciate Jabber software development and adoption.
 
 ## What you get
 
