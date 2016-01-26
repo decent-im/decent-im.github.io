@@ -17,8 +17,13 @@ Please consider recurring donation on [Gratipay](https://gratipay.com/decent-im)
  - JID of `username@decent.im` form;
  - Chat sync and history storage features;
  - File sharing capability;
- - Possibility to make audio/video calls via Jabber (Jappix webapp will be deployed soon, to compensate lack of calls support in most of native clients, also see [me working on feature development for Conversations](https://www.bountysource.com/issues/18153806-support-audio-video-calls-encryption/backers));
- - Private conferencing (multi-user chats) - coming soon;
+ - Private conferencing (multi-user chats);
+ - Possibility to make audio/video calls via Jabber
+ - - Some Jabber clients support calls natively (however interoperability and stability is known to be poor in many cases)
+ - - Some web applications are deployed, enabling calls for you:
+ - - - [Jappix](https://decent.im/jappix)
+ - - - [JSXC](https://decent.im/jsxc/example)
+ - - Also see [me working on feature development for Conversations](https://www.bountysource.com/issues/18153806-support-audio-video-calls-encryption/backers)
  - Decent personal support;
  - Constant evolvement of features set. We're here to last long and to kick asses.
 
