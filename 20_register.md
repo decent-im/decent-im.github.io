@@ -17,7 +17,7 @@ Please consider recurring donation on [Gratipay](https://gratipay.com/decent-im)
  - JID of `username@decent.im` form;
  - Chat sync and history storage features;
  - File sharing capability;
- - Private conferencing (multi-user chats);
+ - Private conferencing (multi-user chats) on `roomname@chat.decent.im`;
  - Possibility to make audio/video calls via Jabber
  - - Some Jabber clients support calls natively (however interoperability and stability is known to be poor in many cases)
  - - Some web applications are deployed, enabling calls for you:
