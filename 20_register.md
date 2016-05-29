@@ -8,7 +8,7 @@ author_footer: false
 
 ## How to get
 
-To request for account registration, please [drop me an encrypted email](https://encrypt.to/0xD56A7CD0C6FCDB11).
+To request for account registration, please [drop me an email](mailto:andrey_utkin@fastmail.com).
 
 Please consider recurring donation on [Gratipay](https://gratipay.com/decent-im) or [Bountysource Salt](https://salt.bountysource.com/teams/decent-im) to keep the service running and to appreciate Jabber software development and adoption.
 
@@ -27,4 +27,4 @@ Please consider recurring donation on [Gratipay](https://gratipay.com/decent-im)
  - Decent personal support;
  - Constant evolvement of features set. We're here to last long and to kick asses.
 
-If you want to negotiate about specific features, please also [drop me an encrypted email](https://encrypt.to/0xD56A7CD0C6FCDB11).
+If you want to negotiate about specific features, please also [drop me an email](mailto:andrey_utkin@fastmail.com).
