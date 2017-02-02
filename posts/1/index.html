@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <title>Videocalls state</title>
+
+        <link rel="stylesheet" href="/static/css/bootstrap.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="/static/css/bootstrap-theme.css">
+        <link rel="stylesheet" href="/static/css/main.css">
+        <link rel="alternate" type="application/rss+xml" title="decent.im" href="/rss.xml">
+        <script src="/static/js/vendor/modernizr-2.6.2.js"></script>
+    </head>
+
+    <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand " href="/">decent.im</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+
+            <li class=""><a href="/contact/">Contact</a></li>
+            <li class=""><a href="/register/">Register</a></li>
+            <li class=""><a href="/usage/">Usage</a></li>
+            <li class=""><a href="/contribute/">Contribute</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    
+
+  <div class="jumbotron">
+    <div class="container">
+
+      <h1>Videocalls state</h1>
+      <small><time pubdate="pubdate">15 January 2016</time></small><br/>
+      
+  <p>TLDR: commonly not accessible XMPP feature. Badly maintained or just absent in client implementations.</p>
+
+<p>Tried to make calls with Jitsi, Gajim, Pidgin, webapps Jappix and JSXC - nothing worked in this domain setup.</p>
+
+<p>But I am obsessed with an idea to bring this feature to decent.im users. Decent.im is supposed to be ass-kicking!</p>
+
+<p>For your information, I am working on implementing Jingle calls in Conversations, please join to <a href="https://www.bountysource.com/issues/18153806-support-audio-video-calls-encryption/backers">Bountysource campaign</a> to appreciate me (and/or competitors).</p>
+
+<p>Still cannot get Jappix or JSXC webapps to work with calls on this server, despite my numerous attempts.</p>
+
+<p>But a kind person Philipp Hancke from operators@xmpp.org ML pointed to <a href="https://legastero.github.io/jingle-interop-demos/stanzaio/">this brilliant test page</a>, which just works without any issue! This testing page is by far the most accessible and convenient way to make calls with Jabber! :) Also works the same good way in both Chrome and Firefox, which feels exceptional.</p>
+
+<p>In other words, you can go on and make your calls using that test page! Just be sure to enter full JID (with resource part) into participant JID input. The full JID of the connection made by this page shows up on the page itself. WebSocket URL is wss://decent.im:5281/xmpp-websocket</p>
+
+
+
+    </div>
+  </div>
+
+
+    <script src="/static/js/vendor/jquery-1.10.1.js"></script>
+    <script src="/static/js/vendor/bootstrap.js"></script>
+    <script src="/static/js/main.js"></script>
+  </body>
+
+  
+  
+</html>

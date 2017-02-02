@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <title>Videocalls status update</title>
+
+        <link rel="stylesheet" href="/static/css/bootstrap.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="/static/css/bootstrap-theme.css">
+        <link rel="stylesheet" href="/static/css/main.css">
+        <link rel="alternate" type="application/rss+xml" title="decent.im" href="/rss.xml">
+        <script src="/static/js/vendor/modernizr-2.6.2.js"></script>
+    </head>
+
+    <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand " href="/">decent.im</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+
+            <li class=""><a href="/contact/">Contact</a></li>
+            <li class=""><a href="/register/">Register</a></li>
+            <li class=""><a href="/usage/">Usage</a></li>
+            <li class=""><a href="/contribute/">Contribute</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    
+
+  <div class="jumbotron">
+    <div class="container">
+
+      <h1>Videocalls status update</h1>
+      <small><time pubdate="pubdate">26 January 2016</time></small><br/>
+      
+
+<p>Have deployed a couple of webapps for Jabber chatting and calling.</p>
+
+<ul>
+<li><a href="https://decent.im/jappix">Jappix</a></li>
+<li><a href="https://decent.im/jsxc/example">JSXC</a></li>
+</ul>
+
+<p>Both are not perfect, but still it's something. I hope things will get better in future.</p>
+
+<p>Also <a href="https://legastero.github.io/jingle-interop-demos/stanzaio/">this simple test webpage</a> is quite good for testing Jabber calls capability. Just be sure to enter full JID (with resource part) into participant JID input. The full JID of the connection made by this page shows up on the page itself. WebSocket URL is <code>wss://decent.im:5281/xmpp-websocket</code></p>
+
+<p>For your information, I am working on implementing Jingle calls in Conversations, please join to <a href="https://www.bountysource.com/issues/18153806-support-audio-video-calls-encryption/backers">Bountysource campaign</a>.</p>
+
+<p>Also I am thinking about adding support of videocalls into <code>mcabber</code> using ffmpeg. Please drop me a line if you want this, or if you want to help.</p>
+
+
+
+    </div>
+  </div>
+
+
+    <script src="/static/js/vendor/jquery-1.10.1.js"></script>
+    <script src="/static/js/vendor/bootstrap.js"></script>
+    <script src="/static/js/main.js"></script>
+  </body>
+
+  
+  
+</html>
