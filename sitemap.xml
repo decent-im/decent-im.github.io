@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
     <url>
-        <loc>/contribute/</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>/register/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/usage/</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>/contact/</loc>
+        <loc>/contribute/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -26,7 +16,17 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/posts/0/</loc>
+        <loc>/contact/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>/usage/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>/posts/2/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -36,7 +36,12 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/posts/2/</loc>
+        <loc>/posts/0/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>/posts/3/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
