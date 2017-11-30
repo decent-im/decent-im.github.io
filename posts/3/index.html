@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <title>Maintenance report</title>
+
+        <link rel="stylesheet" href="/static/css/bootstrap.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="/static/css/bootstrap-theme.css">
+        <link rel="stylesheet" href="/static/css/main.css">
+        <link rel="alternate" type="application/rss+xml" title="decent.im" href="/rss.xml">
+        <script src="/static/js/vendor/modernizr-2.6.2.js"></script>
+    </head>
+
+    <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand " href="/">decent.im</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+
+            <li class=""><a href="/contact/">Contact</a></li>
+            <li class=""><a href="/register/">Register</a></li>
+            <li class=""><a href="/usage/">Usage</a></li>
+            <li class=""><a href="/contribute/">Contribute</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    
+
+  <div class="jumbotron">
+    <div class="container">
+
+      <h1>Maintenance report</h1>
+      <small><time pubdate="pubdate">29 November 2017</time></small><br/>
+      
+
+<p>It's been a while since I've put any updates here. But all this time maintenance and development efforts never
+completely stopped.
+And this time I kinda am serious about starting to keep writing service status updates regularly. Promise :)</p>
+
+<p>Quite important recent change is switching from hardened-sources to gentoo-sources as the former is now unsupported
+since grsecurity no longer publishes updates.</p>
+
+<p>Also the make.profile was changed from modified "hardened" profile to bleeding edge default/linux/amd64/17.0/no-multilib
+(again with a mixed in decent.im profile feature). This is to enable new compiler gcc-6.4.0 which is required to build
+net-im/spectrum since recently.</p>
+
+<p>Last cycle of weekly automated system update failed at building net-im/spectrum-9999:</p>
+
+<pre>
+In file included from /usr/include/qt4/QtCore/qobject.h:47:0,
+                 from /usr/include/qt4/QtCore/qabstracteventdispatcher.h:45,
+                 from /usr/include/qt4/QtCore/QtCore:3,
+                 from /var/tmp/portage/net-im/spectrum-9999/work/spectrum-9999/backends/libcommuni/main.cpp:20:
+/usr/include/boost/signals/detail/signals_common.hpp:26:13: error: expected identifier before 'protected'
+   namespace BOOST_SIGNALS_NAMESPACE {
+             ^
+/usr/include/boost/signals/detail/signals_common.hpp:26:13: error: expected unqualified-id before 'protected'
+In file included from /usr/include/boost/scoped_ptr.hpp:14:0,
+                 from /usr/include/boost/smart_ptr.hpp:19,
+                 from /usr/include/boost/signals/connection.hpp:14,
+                 from /usr/include/boost/signals/signal_template.hpp:18,
+                 from /usr/include/boost/signals/signal0.hpp:24,
+                 from /usr/include/boost/signal.hpp:27,
+                 from /usr/include/boost/signals.hpp:9,
+                 from /var/tmp/portage/net-im/spectrum-9999/work/spectrum-9999/include/Swiften/SwiftenCompat.h:50,
+                 from /var/tmp/portage/net-im/spectrum-9999/work/spectrum-9999/include/transport/Config.h:29,
+                 from /var/tmp/portage/net-im/spectrum-9999/work/spectrum-9999/backends/libcommuni/main.cpp:22:
+/usr/include/boost/smart_ptr/scoped_ptr.hpp:26:28: error: expected '}' before end of line
+ #pragma GCC diagnostic push
+                            ^
+/usr/include/boost/smart_ptr/scoped_ptr.hpp:26:28: error: expected declaration before end of line
+make[2]: *** [backends/libcommuni/CMakeFiles/spectrum2_libcommuni_backend.dir/build.make:102: backends/libcommuni/CMakeFiles/spectrum2_libcommuni_backend.dir/main.cpp.o] Error 1
+make[2]: Leaving directory '/var/tmp/portage/net-im/spectrum-9999/work/spectrum-9999'
+make[1]: *** [CMakeFiles/Makefile2:646: backends/libcommuni/CMakeFiles/spectrum2_libcommuni_backend.dir/all] Error 2
+make[1]: Leaving directory '/var/tmp/portage/net-im/spectrum-9999/work/spectrum-9999'
+make: *** [Makefile:152: all] Error 2
+ * ERROR: net-im/spectrum-9999::mva failed (compile phase):
+ *   emake failed
+
+</pre>
+
+<p>Interestingly, this failure doesn't occur if we use net-im/swiften-9999 (currently we have 3.0 installed on production
+server). This will be further investigated.</p>
+
+<p>Another nice pre-announcement is that, with help of our donation, the innovative IRC gateway implementation Biboumi is
+getting PostgreSQL support, which will enable us to have it on production system with no extra maintenance effort.
+Currently Biboumi supports only SQLite, which is a bit questionable in my opinion, especially with regard to taking
+backups of it while having service working.</p>
+
+
+
+    </div>
+  </div>
+
+
+    <script src="/static/js/vendor/jquery-1.10.1.js"></script>
+    <script src="/static/js/vendor/bootstrap.js"></script>
+    <script src="/static/js/main.js"></script>
+  </body>
+
+  
+  
+</html>
