@@ -26,6 +26,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>/posts/4/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>/posts/2/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>

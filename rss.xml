@@ -15,6 +15,8 @@
     
     
     
+    
+    
 
   
   
@@ -41,6 +43,42 @@ Try open federative network running and evolving since 1999, based on free open 
 <p>So go check <a href="/usage/">how to leverage these features</a>!</p>
 
 <p><strong>===&gt; To request for an account, just <a href="mailto:andrey_utkin@fastmail.com">drop me an email</a>! &lt;===</strong></p>
+
+]]></content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title type="html"><![CDATA[Maintenance report for December 2017]]></title>
+    <link href="//posts/4/"/>
+    <updated>2018-01-08T00:00:00</updated>
+    <id>//posts/4/</id>
+    <content type="html"><![CDATA[
+
+<p>Happy new 2018 year!</p>
+
+<p>During last month, this happened:</p>
+
+<ul>
+<li><p>spectrum build failure was resolved</p>
+
+<p>To fix that, I submitted upstream a <a href="https://github.com/SpectrumIM/spectrum2/pull/252">pull request</a>
+with a trivial patch, which was accepted (not without a bit of bikeshedding with upstream maintainer).</p></li>
+<li><p>biboumi, the awesome IRC gateway, was integrated to production service</p>
+
+<p>biboumi is a great software, featuring a bunch of nice capabilities, for example, message archive access for IRC rooms
+user is attending. This means no more missed bits in IRC conversations!</p>
+
+<p>biboumi previously could use only SQLite database, which was considered by me a major downside. Finally, with a help
+of our very humble donation, the upstream maintainer recently added PostgreSQL support! Then, I have added it to
+production server (as well as staging server dev.decent.im). Existing <code>irc.decent.im</code> component, previously served
+by Spectrum &amp; libcommini based gateway, was replaced with biboumi, for convenience and clarity. (Previously I
+considered putting it to horrific URI <code>biboumi.irc.decent.im</code>).</p></li>
+<li><p>one more user joined decent.im :)</p>
+
+<p>Our server is not boasting a huge user base, but I value every person who puts trust into decent.im!</p></li>
+</ul>
 
 ]]></content>
   </entry>
