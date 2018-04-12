@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <title>Maintenance report for January-March 2018</title>
+
+        <link rel="stylesheet" href="/static/css/bootstrap.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="/static/css/bootstrap-theme.css">
+        <link rel="stylesheet" href="/static/css/main.css">
+        <link rel="alternate" type="application/rss+xml" title="decent.im" href="/rss.xml">
+        <script src="/static/js/vendor/modernizr-2.6.2.js"></script>
+    </head>
+
+    <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand " href="/">decent.im</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+
+            <li class=""><a href="/contact/">Contact</a></li>
+            <li class=""><a href="/register/">Register</a></li>
+            <li class=""><a href="/usage/">Usage</a></li>
+            <li class=""><a href="/contribute/">Contribute</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    
+
+  <div class="jumbotron">
+    <div class="container">
+
+      <h1>Maintenance report for January-March 2018</h1>
+      <small><time pubdate="pubdate">11 April 2018</time></small><br/>
+      
+
+<p>During this time, not much happened:</p>
+
+<ul>
+<li><p>staging server dev.decent.im shut down</p>
+
+<p>It wasn't actively used by me for few months, but it costs the same as production host. I decided to stop this waste
+of funds.</p>
+
+<p>Of course now I need to be more cautious when applying changes to produciton, or at last I should not start testing
+stuff on production server. I am thinking of making it more possible to replicate entire setup in a locla environment
+not having all properties of real public server (e.g. public static IP). But this is yet to be resolved in future.</p></li>
+<li><p>intermittently, unattended upgrade was broken because lua-expat upstream website was down:</p>
+
+<p>lua-expat author has kindly brought up the site on my request. It was brought down manually to stop DoS attack which
+was mounted against his website.</p></li>
+</ul>
+
+<pre>
+->  http://code.matthewwild.co.uk/lua-expat/
+--> hg identify --id --rev default http://code.matthewwild.co.uk/lua-expat/ --config trusted.users=portage
+abort: HTTP Error 404: Not Found
+!!! Error updating dev-lua/luaexpat:0: [Exception] update command returned non-zero result
+...
+* Updating /usr/portage/distfiles/hg-src/luaexpat/lua-expat from http://code.matthewwild.co.uk/lua-expat/
+pulling from http://code.matthewwild.co.uk/lua-expat/
+abort: HTTP Error 404: Not Found
+</pre>
+
+<ul>
+<li>again, one more user joined decent.im :)</li>
+</ul>
+
+
+
+    </div>
+  </div>
+
+
+    <script src="/static/js/vendor/jquery-1.10.1.js"></script>
+    <script src="/static/js/vendor/bootstrap.js"></script>
+    <script src="/static/js/main.js"></script>
+  </body>
+
+  
+  
+</html>

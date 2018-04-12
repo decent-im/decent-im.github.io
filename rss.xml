@@ -17,6 +17,8 @@
     
     
     
+    
+    
 
   
   
@@ -43,6 +45,50 @@ Try open federative network running and evolving since 1999, based on free open 
 <p>So go check <a href="/usage/">how to leverage these features</a>!</p>
 
 <p><strong>===&gt; To request for an account, just <a href="mailto:andrey_utkin@fastmail.com">drop me an email</a>! &lt;===</strong></p>
+
+]]></content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title type="html"><![CDATA[Maintenance report for January-March 2018]]></title>
+    <link href="//posts/5/"/>
+    <updated>2018-04-11T00:00:00</updated>
+    <id>//posts/5/</id>
+    <content type="html"><![CDATA[
+
+<p>During this time, not much happened:</p>
+
+<ul>
+<li><p>staging server dev.decent.im shut down</p>
+
+<p>It wasn't actively used by me for few months, but it costs the same as production host. I decided to stop this waste
+of funds.</p>
+
+<p>Of course now I need to be more cautious when applying changes to produciton, or at last I should not start testing
+stuff on production server. I am thinking of making it more possible to replicate entire setup in a locla environment
+not having all properties of real public server (e.g. public static IP). But this is yet to be resolved in future.</p></li>
+<li><p>intermittently, unattended upgrade was broken because lua-expat upstream website was down:</p>
+
+<p>lua-expat author has kindly brought up the site on my request. It was brought down manually to stop DoS attack which
+was mounted against his website.</p></li>
+</ul>
+
+<pre>
+->  http://code.matthewwild.co.uk/lua-expat/
+--> hg identify --id --rev default http://code.matthewwild.co.uk/lua-expat/ --config trusted.users=portage
+abort: HTTP Error 404: Not Found
+!!! Error updating dev-lua/luaexpat:0: [Exception] update command returned non-zero result
+...
+* Updating /usr/portage/distfiles/hg-src/luaexpat/lua-expat from http://code.matthewwild.co.uk/lua-expat/
+pulling from http://code.matthewwild.co.uk/lua-expat/
+abort: HTTP Error 404: Not Found
+</pre>
+
+<ul>
+<li>again, one more user joined decent.im :)</li>
+</ul>
 
 ]]></content>
   </entry>

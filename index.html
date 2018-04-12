@@ -77,6 +77,47 @@ Try open federative network running and evolving since 1999, based on free open 
     </li>
     
     <li>
+      <a href="/posts/5/"><h2>Maintenance report for January-March 2018</h2></a>
+      <small>11 April 2018</small><br/>
+      
+
+<p>During this time, not much happened:</p>
+
+<ul>
+<li><p>staging server dev.decent.im shut down</p>
+
+<p>It wasn't actively used by me for few months, but it costs the same as production host. I decided to stop this waste
+of funds.</p>
+
+<p>Of course now I need to be more cautious when applying changes to produciton, or at last I should not start testing
+stuff on production server. I am thinking of making it more possible to replicate entire setup in a locla environment
+not having all properties of real public server (e.g. public static IP). But this is yet to be resolved in future.</p></li>
+<li><p>intermittently, unattended upgrade was broken because lua-expat upstream website was down:</p>
+
+<p>lua-expat author has kindly brought up the site on my request. It was brought down manually to stop DoS attack which
+was mounted against his website.</p></li>
+</ul>
+
+<pre>
+->  http://code.matthewwild.co.uk/lua-expat/
+--> hg identify --id --rev default http://code.matthewwild.co.uk/lua-expat/ --config trusted.users=portage
+abort: HTTP Error 404: Not Found
+!!! Error updating dev-lua/luaexpat:0: [Exception] update command returned non-zero result
+...
+* Updating /usr/portage/distfiles/hg-src/luaexpat/lua-expat from http://code.matthewwild.co.uk/lua-expat/
+pulling from http://code.matthewwild.co.uk/lua-expat/
+abort: HTTP Error 404: Not Found
+</pre>
+
+<ul>
+<li>again, one more user joined decent.im :)</li>
+</ul>
+
+
+    <br>
+    </li>
+    
+    <li>
       <a href="/posts/4/"><h2>Maintenance report for December 2017</h2></a>
       <small>8 January 2018</small><br/>
       
