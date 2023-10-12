@@ -1,0 +1,3 @@
+[submodule "xmpp-account-exporter"]
+	path = xmpp-account-exporter
+	url = https://github.com/decent-im/xmpp-account-exporter.git
