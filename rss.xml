@@ -23,6 +23,8 @@
     
     
     
+    
+    
 
   
   
@@ -64,6 +66,51 @@ Currently decent.im runs a gateway only for IRC.</p>
 <p><a href="https://github.com/decent-im/">Server configs and code are public.</a></p>
 
 <p><strong>===&gt; To request for an account, just <a href="mailto:andrey_utkin@fastmail.com">drop me an email</a>! &lt;===</strong></p>
+
+]]></content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title type="html"><![CDATA[Messengers performance]]></title>
+    <link href="//posts/8/"/>
+    <updated>2023-10-18T00:00:00</updated>
+    <id>//posts/8/</id>
+    <content type="html"><![CDATA[
+
+<p>I have been measuring and comparing messaging apps for Android.
+Now I have something to share.
+I hope you enjoy reading this and it proves to be a useful knowledge for you.</p>
+
+<p>This is a very limited study of resource usage by messaging apps on Android.
+It needs more apps, devices and picky readers and reviewers.</p>
+
+<h2>Conclusions</h2>
+
+<p>Conversations (XMPP) seems best for battery life, traffic and RAM.</p>
+
+<p>Facebook Messenger and Element (Matrix) are the worst from the studied apps, draining up to 300x more power than Conversations when battery optimization is disabled.</p>
+
+<p>Element X (experimental Matrix app) is coming up with a more than 100x reduction in energy consumption (comparing to Element), drawing just 2x more power than Conversations.</p>
+
+<p>A few more proprietary messengers have been measured and they fall in between the space between the above mentioned extremes. Little can be said about them besides that most of them continuously draw substantial amount of power and bandwidth even when not interacted with.</p>
+
+<h2>Cool Pictures! I mean, serious data.</h2>
+
+<p><strong>Explore this <a href="https://decentim.grafana.net/public-dashboards/92602d3a4aa842ce97812d310077691d">public Grafana dashboard</a>.</strong></p>
+
+<h2>Misc</h2>
+
+<p>I run an XMPP server, but I made this research to find out the facts, not to prove any beliefs or prop up attractiveness of any chat network.</p>
+
+<p>You can:</p>
+
+<ul>
+<li><a href="https://github.com/decent-im/messengers-perf">Add your data</a></li>
+<li><a href="https://nurture.decent.im/">Donate</a> (mention <code>messengers-perf</code> in the comment)</li>
+<li><a href="mailto:messengers-perf@autkin.net">Ask, thank or tell me something</a></li>
+</ul>
 
 ]]></content>
   </entry>
