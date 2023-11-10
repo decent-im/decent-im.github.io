@@ -25,6 +25,8 @@
     
     
     
+    
+    
 
   
   
@@ -66,6 +68,24 @@ Currently decent.im runs a gateway only for IRC.</p>
 <p><a href="https://github.com/decent-im/">Server configs and code are public.</a></p>
 
 <p><strong>===&gt; To request for an account, just <a href="mailto:andrey_utkin@fastmail.com">drop me an email</a>! &lt;===</strong></p>
+
+]]></content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title type="html"><![CDATA[Anti-spam developments]]></title>
+    <link href="//posts/9/"/>
+    <updated>2023-11-10T00:00:00</updated>
+    <id>//posts/9/</id>
+    <content type="html"><![CDATA[
+
+<p>Prosody developer MattJ gave a talk this week on the topic of 
+<a href="https://mov.im/node/pubsub.movim.eu/berlin-xmpp-meetup/mattj-talks-about-spam-abuse-and-moderation-7fJ5za">Spam, Abuse and Moderation</a>
+discussing many aspects of keeping the users, servers and entire XMPP network safe.</p>
+
+<p>Prompted by the talk, I <a href="https://github.com/decent-im/decent.im/commit/8db83f8c9c609f4d5fb4a3312962efb634702d4b">enabled the spam reporting modules</a>.</p>
 
 ]]></content>
   </entry>
