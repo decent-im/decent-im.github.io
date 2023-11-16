@@ -61,7 +61,20 @@ publishable-key="pk_live_51K59r2Rdy8kn6S6anuYmS7vkQjPhTrRe3nfs4Z4SBA7kjNoZXMumMR
 &gt;
 </stripe-buy-button></p>
 
-<p>If we know each other, or your work in public interest is known to me, please <a href="mailto:customer-support@autkin.net">contact me</a> to request account for free.</p>
+<p><!--
+Stripe form above won't load on plain http URL.
+I don't want to force HTTPS website-wide.
+I want to support disabled JavaScript.
+-->
+<a href="https://buy.stripe.com/eVa4h42C8bce1pu5km" id="payment-link">Submit the payment and details.</a></p>
+
+<script type="text/javascript">
+if (window.location.protocol == "https:") {
+    document.getElementById('payment-link').setAttribute("hidden", "true");
+}
+</script>
+
+<p>If we know each other, or your work in public interest is known to me, please <a href="mailto:customer-support@autkin.net">contact me</a> to request an account for free.</p>
 
 <h2>What you get</h2>
 
