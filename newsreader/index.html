@@ -37,9 +37,9 @@
 
             <li class=""><a href="/contact/">Contact</a></li>
             <li class=""><a href="/register/">Register</a></li>
-            <li class="active"><a href="/usage/">Usage</a></li>
+            <li class=""><a href="/usage/">Usage</a></li>
             <li class=""><a href="/privacy_policy/">Privacy policy</a></li>
-            <li class=""><a href="/newsreader/">Newsreader</a></li>
+            <li class="active"><a href="/newsreader/">Newsreader</a></li>
           </ul>
         </div><!--/.navbar-collapse -->
       </div>
@@ -48,39 +48,40 @@
     
 <div class="jumbotron">
   <div class="container">
-    <h1>Usage</h1>
+    <h1>Newsreader service</h1>
 
-<h2>Tools</h2>
+<p>FreshRSS is a free, open source, reliable and ergonomic service with web interface (which is usable on mobile) and API for mobile apps.</p>
 
-<p><a href="https://decent.im/xmpp-account-exporter/">XMPP Account Exporter</a>
-lets you export your user profile settings, contact list, bookmarks. Not message archive though.</p>
+<p>As with the XMPP service, I use it daily and I like it very much.</p>
 
-<h2>Client apps</h2>
+<p><strong><a href="https://news.decent.im">Take a look at my own selection of news sources to get a taste</a>.</strong></p>
 
-<p><a href="http://conversations.im">Conversations</a>
-is a great Android client app.
-<strong>Recommended.</strong></p>
+<p>(Note that with your own account, the newsreader will remember which articles you have seen before.)</p>
 
-<p><a href="http://dino.im">Dino</a>
-is a Linux desktop client.
-Reliable and slick.
-Lacks advanced management features e.g. for managing chatrooms - check out Gagim for that.
-<strong>Recommended.</strong></p>
+<script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
 
-<p><a href="http://gajim.org">Gajim</a>
-is a feature-rich desktop client.
-Has a lot of advanced features but may be clunky or unstable.
-<strong>Recommended.</strong></p>
+<p><stripe-buy-button
+  buy-button-id="buy_btn_1OHVDiRdy8kn6S6aRBg2I9nx"
+  publishable-key="pk_live_51K59r2Rdy8kn6S6anuYmS7vkQjPhTrRe3nfs4Z4SBA7kjNoZXMumMRf99oKubccIZe2NNnjfPJP6UUExSxAWeiKc00sOO9TnSQ"
+&gt;
+</stripe-buy-button></p>
 
-<p><a href="https://decent.im:5281/conversejs">Converse.js</a>
-is a web client app.
-Purely client-side - the JS code runs in your browser, no third party relay server is used.</p>
+<p><!--
+Stripe form above won't load on plain http URL.
+I don't want to force HTTPS website-wide.
+I want to support disabled JavaScript.
+-->
+<a href="https://buy.stripe.com/aEU5l82C85RU3xCbIL" id="payment-link">Submit the payment and details.</a></p>
 
-<p><a href="http://poez.io">poezio</a>,
-<a href="https://profanity-im.github.io">profanity</a>,
-<a href="http://mcabber.com">mcabber</a>
-- terminal-based client apps.</p>
+<script type="text/javascript">
+if (window.location.protocol == "https:") {
+    document.getElementById('payment-link').setAttribute("hidden", "true");
+}
+</script>
 
+<p>If we know each other, or your work in public interest is known to me, please <a href="mailto:customer-support@autkin.net">contact me</a> to request an account for free.</p>
 
   </div>
 </div>
