@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <title>LLM chatbot</title>
+
+        <link rel="stylesheet" href="/static/css/bootstrap.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="/static/css/bootstrap-theme.css">
+        <link rel="stylesheet" href="/static/css/main.css">
+        <link rel="alternate" type="application/rss+xml" title="decent.im" href="/rss.xml">
+        <script src="/static/js/vendor/modernizr-2.6.2.js"></script>
+    </head>
+
+    <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand " href="/">decent.im</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+
+            <li class=""><a href="/contact/">Contact</a></li>
+            <li class=""><a href="/register/">Register</a></li>
+            <li class=""><a href="/usage/">Usage</a></li>
+            <li class=""><a href="/privacy_policy/">Privacy policy</a></li>
+            <li class=""><a href="/newsreader/">Newsreader</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    
+
+  <div class="jumbotron">
+    <div class="container">
+
+      <h1>LLM chatbot</h1>
+      <small><time pubdate="pubdate">10 November 2023</time></small><br/>
+      
+<p>So LLM (Large Language Models) are the hotness of the day. Still not a reliable tool, but amusing at least, and time-saving at its best.
+There is also an inspiring amount of stuff any curious individual can explore for free and without material obligations to corporations.</p>
+
+<p><a href="https://hacks.mozilla.org/2023/11/introducing-llamafile/">Llamafile</a> project is yet another breakthrough in lowering the complexity bar for trying out <em>local</em> LLMs.
+<a href="https://huggingface.co/jartine/llava-v1.5-7B-GGUF/resolve/main/llava-v1.5-7b-q4-server.llamafile">Download one file</a>, and run it on your computer of maybe even the phone.</p>
+
+<p>I actually had to reach for lower level tool, <a href="https://github.com/ggerganov/llama.cpp">llama.cpp</a> as llamafile didn't work properly on the machine I wanted to run it on.
+llama.cpp is still very approachable for a software tinkerer, and it is becoming easier to figure out how to download the precious "weights".</p>
+
+<p>Some models can analyse details on pictures you upload (bot doesn't support that).
+Some models can converse in all languages, not just English.
+Impressive!
+Imagine just a DVD or a few in your hands.
+Before, it was enough to install Linux or play an expensive game.
+Now it has, to some degree of fidelity, most of the information from the Internet.</p>
+
+<p>So in the old tradition of exposing software tricks in the form of a chatbot, I cobbled together an XMPP bot which lets XMPP users to talk to LLM models.</p>
+
+<p>Here is it: <a href="xmpp:llama@decent.im">llama@decent.im</a></p>
+
+<p>So try it out!</p>
+
+<p>I rotate the models and will mess with prompts and parameters, so check the bot status message for details.
+Message exchanges are monitored.</p>
+
+<p>Sometimes LLM says ridiculous things (false, made-up URLs, so many other things...), as is the common knowledge.
+But sometimes they are pretty good (model <a href="https://huggingface.co/TheBloke/Amethyst-13B-Mistral-GGUF/resolve/main/amethyst-13b-mistral.Q5_K_M.gguf"><code>amethyst-13b-mistral.Q5_K_M</code></a>):</p>
+
+<p>User: Which country owns Crimea? <br />
+Llama: Russia currently occupies and administers the Ukrainian peninsula of Crimea, but it remains internationally recognized as part of Ukraine. The annexation of Crimea by Russia in 2014 was widely condemned and considered illegal under international law.</p>
+
+
+
+    </div>
+  </div>
+
+
+    <script src="/static/js/vendor/jquery-1.10.1.js"></script>
+    <script src="/static/js/vendor/bootstrap.js"></script>
+    <script src="/static/js/main.js"></script>
+  </body>
+
+  
+  
+</html>
