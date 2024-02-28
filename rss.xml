@@ -79,6 +79,24 @@ Currently decent.im runs a gateway only for IRC.</p>
   
   
   <entry>
+    <title type="html"><![CDATA[Anti-spam developments]]></title>
+    <link href="//posts/9/"/>
+    <updated>2023-11-10T00:00:00</updated>
+    <id>//posts/9/</id>
+    <content type="html"><![CDATA[
+
+<p>Prosody developer MattJ gave a talk this week on the topic of 
+<a href="https://mov.im/node/pubsub.movim.eu/berlin-xmpp-meetup/mattj-talks-about-spam-abuse-and-moderation-7fJ5za">Spam, Abuse and Moderation</a>
+discussing many aspects of keeping the users, servers and entire XMPP network safe.</p>
+
+<p>Prompted by the talk, I <a href="https://github.com/decent-im/decent.im/commit/8db83f8c9c609f4d5fb4a3312962efb634702d4b">enabled the spam reporting modules</a>.</p>
+
+]]></content>
+  </entry>
+  
+  
+  
+  <entry>
     <title type="html"><![CDATA[LLM chatbot]]></title>
     <link href="//posts/11/"/>
     <updated>2023-11-10T00:00:00</updated>
@@ -181,24 +199,6 @@ request and funded by me.</p>
 <p>Jonas Schäfer for keeping my back with his <a href="https://observe.jabber.network/">free monitoring system</a>.</p>
 
 <p><a href="https://packages.gentoo.org/maintainer/conikost@gentoo.org">Conrad Kostecki</a> for maintaining XMPP server packages in Gentoo Linux.</p>
-
-]]></content>
-  </entry>
-  
-  
-  
-  <entry>
-    <title type="html"><![CDATA[Anti-spam developments]]></title>
-    <link href="//posts/9/"/>
-    <updated>2023-11-10T00:00:00</updated>
-    <id>//posts/9/</id>
-    <content type="html"><![CDATA[
-
-<p>Prosody developer MattJ gave a talk this week on the topic of 
-<a href="https://mov.im/node/pubsub.movim.eu/berlin-xmpp-meetup/mattj-talks-about-spam-abuse-and-moderation-7fJ5za">Spam, Abuse and Moderation</a>
-discussing many aspects of keeping the users, servers and entire XMPP network safe.</p>
-
-<p>Prompted by the talk, I <a href="https://github.com/decent-im/decent.im/commit/8db83f8c9c609f4d5fb4a3312962efb634702d4b">enabled the spam reporting modules</a>.</p>
 
 ]]></content>
   </entry>
