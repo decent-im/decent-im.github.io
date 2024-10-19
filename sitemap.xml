@@ -6,6 +6,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>/donate-to-ukraine/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -16,22 +21,27 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/usage/</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>/register/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/donate-to-ukraine/</loc>
+        <loc>/usage/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>/newsreader_de/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>/newsreader/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>/posts/0/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -87,11 +97,6 @@
     </url>
     <url>
         <loc>/posts/9/</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>/posts/0/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
